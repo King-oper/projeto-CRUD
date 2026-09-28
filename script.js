@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <button type="button" class="btn-action-delete" data-id="${musica.id}">Excluir</button>
                 </td>
             `;
-            tabelaCorpo.appendChild(tr);
+            tabelaCorpo.appendChild(tr);        
         });
 
         document.querySelectorAll('.btn-action-edit').forEach(btn => {
