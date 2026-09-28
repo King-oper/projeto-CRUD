@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Pjt CRUD do Gabriel 零</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app-container">
+        <nav>
+            <header class="AVANT">
+                <span>AVANT MUSIC</span>
+            </header>
+            
+            <a href="dashboard.html" class="nav-link active">Dashboard</a>
+            <a href="cadastro.html" class="nav-link">Cadastrar Música</a>
+            <a href="biblioteca.html" class="nav-link">Biblioteca</a>
+
+            <footer>
+                Sistema du marsali 零 v1.2<br>
+            </footer>
+        </nav>
+        
+        <main>
+            <div id="dashboard-content" class="content-section">
+                <h2>Dashboard</h2>
+                
+                <div class="charts-container">
+                    <div class="chart-box">
+                        <h4>Total de Músicas</h4>
+                        <h2 id="dashTotalMusicas">0</h2>
+                    </div>
+                    <div class="chart-box">
+                        <h4>Distribuição por Gênero</h4>
+                        <div id="generoChartContainer" class="bar-chart-mock"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

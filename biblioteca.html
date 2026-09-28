@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca - Pjt CRUD do Gabriel 零</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app-container">
+        <nav>
+            <header class="AVANT">
+                <span>AVANT MUSIC</span>
+            </header>
+            
+            <a href="dashboard.html" class="nav-link">Dashboard</a>
+            <a href="cadastro.html" class="nav-link">Cadastrar Música</a>
+            <a href="biblioteca.html" class="nav-link active">Biblioteca</a>
+
+            <footer>
+                Sistema du marsali 零 v1.2<br>
+            </footer>
+        </nav>
+        
+        <main>
+            <div id="lista-content" class="content-section">
+                <h2>Biblioteca de Músicas já cadastradas</h2>
+                <p class="description">Gerencie, edite ou exclua as faixas das suas musicas</p>
+                
+                <div class="table-container">
+                    <table id="tabelaMusicas" class="TB">
+                        <thead>
+                            <tr>
+                                <th>Música:</th>
+                                <th>Artista:</th>
+                                <th>Data Lançamento:</th>
+                                <th>Gênero:</th>
+                                <th>Ações:</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr id="linhaVazia">
+                                <td colspan="5" style="text-align: center;">Nenhuma música cadastrada ainda.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
