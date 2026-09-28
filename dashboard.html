@@ -25,15 +25,31 @@
         <main>
             <div id="dashboard-content" class="content-section">
                 <h2>Dashboard</h2>
+                <p class="description">Resumo da sua biblioteca de músicas.</p>
                 
-                <div class="charts-container">
+                <div class="charts-container dash-kpis">
                     <div class="chart-box">
                         <h4>Total de Músicas</h4>
                         <h2 id="dashTotalMusicas">0</h2>
                     </div>
                     <div class="chart-box">
+                        <h4>Artistas</h4>
+                        <h2 id="dashTotalArtistas">0</h2>
+                    </div>
+                    <div class="chart-box">
+                        <h4>Gêneros</h4>
+                        <h2 id="dashTotalGeneros">0</h2>
+                    </div>
+                </div>
+
+                <div class="charts-container">
+                    <div class="chart-box">
                         <h4>Distribuição por Gênero</h4>
                         <div id="generoChartContainer" class="bar-chart-mock"></div>
+                    </div>
+                    <div class="chart-box">
+                        <h4>Últimas cadastradas</h4>
+                        <div id="listaRecentes"></div>
                     </div>
                 </div>
             </div>
